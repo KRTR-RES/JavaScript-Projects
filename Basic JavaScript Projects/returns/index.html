@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+        <p id="demo"></p>
+
+<script>
+    let text = "";
+    for (let i = 0; i < 10; i++) {
+    if (i === 3) { break; }
+    text += "The number is " + i + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+        <p id="Contin"></p>
+
+<script>
+        let word= "";
+    for (let K = 0; K < 10; K++) {
+    if (K === 2) { continue; }
+    text += "The number is " + K + "<br>";
+    }
+
+    document.getElementById("Contin").innerHTML = word;
+</script>
+
+
+        <p id ="Car_Object"></p>
+
+        <script>
+            let car = {
+    make: "Toyota",
+    model: "Avalon",
+    year: "2022",
+    color: "black",
+    details: function() {
+    return "The car is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementById("Car_Object").innerHTML= car.details();
+        </script>
+
+
+    
+    </body>
+
+</html>
+
+
+
+
+
