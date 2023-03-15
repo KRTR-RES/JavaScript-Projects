@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(255, 59, 59);
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+div {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#MenuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu { /* changed width from 400px for 2 options to 600px for 3 options. */
+    width:600px;
+    height:200px;
+}
+
+#totalPrice {
+    width: 200x;
+    height: 190px;
+    margin: 20px auto; /*margin changed from 0px to 20px when fromMenu width was changed. */
+    float: right;
+}
+
+.left {
+    width: 200px;
+    height:200px;
+    float:left;
+}
+
+.center {
+    width: 200px;
+    height:200px;
+    float:left;
+}
+
+.right {
+    width:200px;
+    height:200px;
+    float: right;
+}
+
+#showText {
+    width:200px;
+    height:190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top: 0; margin:0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+margin:10px 0px 0px 100px;
+width:100px;
+height: 40px;
+display: block; /*This was added when a 3rd option type was added. i guess to organize them. marin was added aswell. */
+margin: 25px auto; 
+}
